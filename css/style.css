@@ -1724,6 +1724,10 @@ section {
   display: none;
 }
 
+.faq > h5 {
+  color: white;
+}
+
 @media (max-width: 1200px) {
   .faq .faq-list {
     padding: 0;

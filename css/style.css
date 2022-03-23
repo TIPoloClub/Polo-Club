@@ -521,7 +521,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 3, 91, 0.9);
+  background: rgba(90, 90, 90, 0.288);
   transition: 0.3s;
   z-index: 999;
 }
@@ -553,11 +553,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2a2dc5;
+  color: #c52a2a;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #3f43fd;
+  color: #8d8d8d;
 }
 
 .navbar-mobile .getstarted {
@@ -589,7 +589,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #5663F7;
+  color: #474747;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {

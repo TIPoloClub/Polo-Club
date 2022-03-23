@@ -29,7 +29,7 @@
 
 .section-intro {
     height: 700px;
-    background-image: url('../assets/img/gsd.jpg');
+    background-image: url('../assets/img/fundo_index.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;

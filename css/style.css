@@ -25,11 +25,17 @@
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.nav-flex-row li a:hover {
+  color: red;
 }
 
 .section-intro {
     height: 700px;
-    background-image: url('../assets/img/fundo_index.jpg');
+    /* background-image: url('../assets/img/polo\ club\ alt\ resolução.jpg'); */
+    background-color: black;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -202,27 +208,31 @@ a.link-to-book:hover {
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #c1c1c1;
   background: #23272A;
 }
+
 .highlight {
   color: #eb455b!important;
   font-weight: 1000!important;
   font-size: 20px!important ;
 }
+
 .highlight2 {
   color: #eb455b!important;
   font-weight: 1000!important;
 }
+
 a {
-  color: #767676;
+  color: #a3a3a3;
   text-decoration: none;
 }
 
 a:hover {
-  color: #575757;
+  color: #ff0000;
   text-decoration: none;
 }
 
@@ -541,7 +551,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 8px;
-  background-color: #23272A;
+  background-color: #2a2323;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -621,11 +631,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 0, 0, 0.8);
 }
 
 #hero h1 span {
-  color: #fff;
+  color: rgb(255, 0, 0);
   border-bottom: 4px solid #767676;
 }
 
@@ -649,7 +659,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #4b4b4b;
+  background: #ff0000;
 }
 
 #hero .animated {
@@ -872,7 +882,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #ffffff;
+  color: #ff0000;
 }
 
 /*--------------------------------------------------------------
@@ -919,7 +929,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #6c757d;
+  color: #6f7d6c;
   content: "/";
 }
 
@@ -1154,7 +1164,7 @@ section {
 
 .features .icon-box:hover {
   border-radius: 8px;
-  background: #273238;
+  background: #ff0000;
 } 
 
 /*--------------------------------------------------------------
@@ -1535,7 +1545,7 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #30353a;
+  background: #0080ff;
   text-align: center;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
   border-radius: 8px;
@@ -1709,11 +1719,11 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #c1c1c1;
+  color: #ffffff;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #7c7c7c;
+  color: #ff0000;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1725,7 +1735,7 @@ section {
 }
 
 .faq > h5 {
-  color: white;
+  color: rgb(255, 0, 0);
 }
 
 @media (max-width: 1200px) {
@@ -1867,7 +1877,7 @@ button[type="green"] {
 }
 
 button[type="green"]:hover {
-  background: #7c7c7c;
+  background: #ff0000;
 }
 button[type="red"] {
   background: #ffffff ;
@@ -1961,7 +1971,7 @@ button[type="red"]:hover {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #888888;
+  background: #ff0000;
   color: #fff;
   text-decoration: none;
 }
@@ -1986,7 +1996,7 @@ button[type="red"]:hover {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #1f1f1f;
+  color: rgb(255, 0, 0);
   font-size: 18px;
   line-height: 1;
 }

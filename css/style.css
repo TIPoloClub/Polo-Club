@@ -48,7 +48,6 @@
     color: #ffffff;
     font-size: 5em;
     font-weight: 700;
-    padding-bottom: 40px;
 }
 
 .section-intro header {
@@ -369,6 +368,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-decoration: none;
 }
+
+#header .logo h1 a:hover, img {
+  color: red;
+} 
 
 #header .logo img {
   padding: 0;

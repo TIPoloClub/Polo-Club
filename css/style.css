@@ -31,6 +31,7 @@
 
 .nav-flex-row li a:hover {
   color: red;
+  transition: all 0.7s;
 }
 
 .section-intro {
@@ -121,7 +122,8 @@ a.link-to-book:hover {
 }
 
 .btn.btn-primary:hover {
-    background-color: #747474;
+    background-color: #ff0000;
+    transition: all 0.5s;
 }
 .opening-time,
 .contact-adress {
@@ -233,6 +235,7 @@ a {
 
 a:hover {
   color: #ff0000;
+  transition: all 0.5s;
   text-decoration: none;
 }
 
@@ -555,7 +558,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 8px;
-  background-color: #2a2323;
+  background-color: #000000;
   overflow-y: auto;
   transition: 0.3s;
 }
